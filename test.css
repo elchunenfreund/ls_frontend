@@ -1,22 +1,28 @@
- body {
-  margin: 50px;
-}
-
-ul {
-  background-color: #a7ceff;
-  border: 10px solid blue;
-  list-style: none;
+body, main, figure, figcaption, img {
+  margin: 0;
   padding: 0;
 }
 
-li {
-  background-color: #ffc;
-  border: 10px solid red;
-  box-sizing: border-box;
-  line-height: 120px;
-  min-height: 120px;
-  text-align: center;
-  display: inline-block;
-  width: 23%;
-  margin: 0 1%;
+body {
+  background-image: url(https://d3jtzah944tvom.cloudfront.net/202/images/lesson_3/gradient-background.png);
+  background-size: cover;
 }
+
+figure {
+  box-sizing: border-box;
+  margin: 50px 0;
+  padding: 0 50px;
+  width: 50%;
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 1rem;
+}
+
+
