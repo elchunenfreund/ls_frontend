@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nutrition Facts Label</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+    .label {
+      border: 1px solid black;
+      width: 350px;
+      margin: 20px auto;
+      padding: 5px 8px;
+    }
+
+    h1 { font-size: 36px; font-weight: 900; margin: 0; }
+    .header-text { font-size: 14px; margin-bottom: 5px; }
+
+    /* Divider weights */
+    .divider-lg { border-bottom: 10px solid black; margin: 2px 0; }
+    .divider-md { border-bottom: 5px solid black; margin: 2px 0; }
+    .divider-sm { border-bottom: 1px solid black; margin: 2px 0; }
+
+    .bold { font-weight: bold; }
+    .right { float: right; }
+    .clear { clear: both; }
+
+    /* Layout rows */
+    .row { border-bottom: 1px solid black; padding: 2px 0; font-size: 14px; }
+    .row.no-border { border-bottom: none; }
+    .indent { margin-left: 15px; }
+
+    .calories-row { font-size: 16px; padding: 3px 0; }
+    .dv-header { text-align: right; font-size: 12px; padding: 3px 0; }
+  </style>
+</head>
+<body>
+
+<div class="label">
+  <h1>Nutrition Facts</h1>
+  <div class="header-text">
+    Serving Size 2/3 cup (55g)<br>
+    Servings Per Container About 8
+  </div>
+
+  <div class="divider-lg"></div>
+
+  <div class="calories-row">
+    <span class="bold">Amount Per Serving</span><br>
+    <span class="bold">Calories 230</span>
+    <span class="right">Calories from Fat 40</span>
+    <div class="clear"></div>
+  </div>
+
+  <div class="divider-md"></div>
+
+  <div class="dv-header bold">% Daily Value*</div>
+
+  <div class="row"><span class="bold">Total Fat</span> 8g <span class="right bold">12%</span></div>
+  <div class="row indent">Saturated Fat 1g <span class="right bold">5%</span></div>
+  <div class="row indent"><i>Trans</i> Fat 0g</div>
+  <div class="row"><span class="bold">Cholesterol</span> 0mg <span class="right bold">0%</span></div>
+  <div class="row"><span class="bold">Sodium</span> 160mg <span class="right bold">7%</span></div>
+  <div class="row"><span class="bold">Total Carbohydrate</span> 37g <span class="right bold">12%</span></div>
+  <div class="row indent">Dietary Fiber 4g <span class="right bold">16%</span></div>
+  <div class="row indent">Sugars 1g</div>
+  <div class="row no-border"><span class="bold">Protein</span> 3g</div>
+
+  <div class="divider-lg"></div>
+
+  <div class="row">Vitamin A <span class="right">10%</span></div>
+  <div class="row">Vitamin C <span class="right">8%</span></div>
+  <div class="row">Calcium <span class="right">20%</span></div>
+  <div class="row no-border">Iron <span class="right">45%</span></div>
+
+  <div class="divider-sm" style="margin-top: 5px;"></div>
+  <div style="font-size: 11px; padding-top: 3px;">
+    * Percent Daily Values are based on a 2,000 calorie diet.
+  </div>
+</div>
+
+</body>
+</html>
