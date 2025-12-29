@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="form.css">
+  </head>
+  <body>
+    <form action="#" method="post">
+      <fieldset>
+        <label>
+          First Name
+          <input type="text" name="first-name" value="Tom">
+        </label>
+      </fieldset>
+    </form>
+
+    <form action="#" method="post">
+      <fieldset>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password"
+               value="Not-good-password" size="35">
+      </fieldset>
+    </form>
+
+    <form action="#" method="post">
+      <fieldset>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="username@domain">
+        </label>
+      </fieldset>
+    </form>
+
+    <form action="#" mehtod="post">
+      <fieldset>
+        <label>
+          Phone
+          <input type="tel" name="phone" placeholder="(###) ###-####">
+        </label>
+      </fieldset>
+    </form>
+
+    <form action="#" method="post">
+      <fieldset>
+        <label>
+          <input type="checkbox" name="choice" value="search">
+          Sort search results
+        </label>
+
+        <label>
+          <input type="checkbox" name="google" value="search" checked>
+          Search on Google
+        </label>
+
+        <label>
+          <input type="checkbox" name="choice" value="recent" checked>
+          Recent results (within last year)
+        </label>
+      </fieldset>
+    </form>
+
+    <form action="#" method="post">
+      <fieldset>
+        <label>
+          <input type="radio" name="color" value="red">
+          Red
+        </label>
+
+        <label>
+          <input type="radio" name="color" value="green" checked>
+          Green
+        </label>
+
+        <label>
+          <input type="radio" name="color" value="blue">
+          Blue
+        </label>
+      </fieldset>
+    </form>
+
+    <form action="#" method="post">
+      <fieldset>
+        <input type="submit" value="Save">
+      </fieldset>
+    </form>
+
+    <form action="#" method="post">
+      <fieldset>
+        <input type="reset" value="Clear Form">
+      </fieldset>
+    </form>
+  </body>
+</html>
